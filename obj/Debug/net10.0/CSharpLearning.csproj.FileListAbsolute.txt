@@ -1,0 +1,14 @@
+C:\Users\Natnael.Abreham\Desktop\New folder\csharp\CSharpLearning\bin\Debug\net10.0\CSharpLearning.exe
+C:\Users\Natnael.Abreham\Desktop\New folder\csharp\CSharpLearning\bin\Debug\net10.0\CSharpLearning.deps.json
+C:\Users\Natnael.Abreham\Desktop\New folder\csharp\CSharpLearning\bin\Debug\net10.0\CSharpLearning.runtimeconfig.json
+C:\Users\Natnael.Abreham\Desktop\New folder\csharp\CSharpLearning\bin\Debug\net10.0\CSharpLearning.dll
+C:\Users\Natnael.Abreham\Desktop\New folder\csharp\CSharpLearning\bin\Debug\net10.0\CSharpLearning.pdb
+C:\Users\Natnael.Abreham\Desktop\New folder\csharp\CSharpLearning\obj\Debug\net10.0\CSharpLearning.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Natnael.Abreham\Desktop\New folder\csharp\CSharpLearning\obj\Debug\net10.0\CSharpLearning.AssemblyInfoInputs.cache
+C:\Users\Natnael.Abreham\Desktop\New folder\csharp\CSharpLearning\obj\Debug\net10.0\CSharpLearning.AssemblyInfo.cs
+C:\Users\Natnael.Abreham\Desktop\New folder\csharp\CSharpLearning\obj\Debug\net10.0\CSharpLearning.csproj.CoreCompileInputs.cache
+C:\Users\Natnael.Abreham\Desktop\New folder\csharp\CSharpLearning\obj\Debug\net10.0\CSharpLearning.dll
+C:\Users\Natnael.Abreham\Desktop\New folder\csharp\CSharpLearning\obj\Debug\net10.0\refint\CSharpLearning.dll
+C:\Users\Natnael.Abreham\Desktop\New folder\csharp\CSharpLearning\obj\Debug\net10.0\CSharpLearning.pdb
+C:\Users\Natnael.Abreham\Desktop\New folder\csharp\CSharpLearning\obj\Debug\net10.0\CSharpLearning.genruntimeconfig.cache
+C:\Users\Natnael.Abreham\Desktop\New folder\csharp\CSharpLearning\obj\Debug\net10.0\ref\CSharpLearning.dll
