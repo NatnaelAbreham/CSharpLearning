@@ -9,9 +9,23 @@ namespace CSharpLearning
             char myLetter = 'D';         // Character
             bool myBool = true;          // Boolean
             string myText = "Hello";     // String
-            int a = 5, b = 10, c = a + b;
+            //int a = 5, b = 10, c = a + b;
 
-            Console.WriteLine("The sum of {0} and {1} is {2}", a, b, c);
+            //Console.WriteLine("The sum of {0} and {1} is {2}", a, b, c);
+            float a = 0.1f;
+            float b = 0.2f;
+
+            Console.WriteLine(a + b);
+
+            double x = 0.1;
+            double y = 0.2;
+
+            Console.WriteLine(x + y);
+
+            decimal p = 0.1m;
+            decimal q = 0.2m;
+
+            Console.WriteLine(p + q);
         }
     }
 }

@@ -7,5 +7,5 @@ dataType.Display();
 Constant constant = new Constant();
 constant.Display(); */
 
-MultipleVariable multipleVariable = new MultipleVariable();
-multipleVariable.Display();
+DataTypes dataTypes = new DataTypes();
+dataTypes.Display();
