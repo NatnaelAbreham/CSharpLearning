@@ -26,6 +26,9 @@ namespace CSharpLearning
             decimal q = 0.2m;
 
             Console.WriteLine(p + q);
+
+            /* Implicit Casting
+Implicit casting is done automatically when passing a smaller size type to a larger size type: */
         }
     }
 }
