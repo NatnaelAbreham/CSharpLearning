@@ -29,17 +29,29 @@ namespace CSharpLearning
 
             /* Implicit Casting
 Implicit casting is done automatically when passing a smaller size type to a larger size type: */
-int myInt = 9;
-double myDouble = myInt;       // Automatic casting: int to double
+            int myInt = 9;
+            double myDouble = myInt;       // Automatic casting: int to double
 
-Console.WriteLine(myInt);      // Outputs 9
-Console.WriteLine(myDouble);   // Outputs 9
+            Console.WriteLine(myInt);      // Outputs 9
+            Console.WriteLine(myDouble);   // Outputs 9
 
-double myDouble1 = 9.78;
-int myInt1 = (int) myDouble;    // Manual casting: double to int
+            double myDouble1 = 9.78;
+            int myInt1 = (int)myDouble;    // Manual casting: double to int
 
-Console.WriteLine(myDouble1);   // Outputs 9.78
-Console.WriteLine(myInt1);      // Outputs 9
+            Console.WriteLine(myDouble1);   // Outputs 9.78
+            Console.WriteLine(myInt1);      // Outputs 9
+
+
+            /* It is also possible to convert data types explicitly by using built-in methods, such as Convert.ToBoolean, Convert.ToDouble, Convert.ToString, Convert.ToInt32 (int) and Convert.ToInt64 (long): */
+
+            int myInt1 = 10;
+double myDouble1 = 5.25;
+bool myBool1 = true;
+
+Console.WriteLine(Convert.ToString(myInt1));    // convert int to string
+Console.WriteLine(Convert.ToDouble(myInt1));    // convert int to double
+Console.WriteLine(Convert.ToInt32(myDouble1));  // convert double to int
+Console.WriteLine(Convert.ToString(myBool1));   // convert bool to string
         }
     }
 }
