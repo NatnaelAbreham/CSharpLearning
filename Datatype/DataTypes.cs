@@ -45,13 +45,18 @@ Implicit casting is done automatically when passing a smaller size type to a lar
             /* It is also possible to convert data types explicitly by using built-in methods, such as Convert.ToBoolean, Convert.ToDouble, Convert.ToString, Convert.ToInt32 (int) and Convert.ToInt64 (long): */
 
             int myInt1 = 10;
-double myDouble1 = 5.25;
-bool myBool1 = true;
+            double myDouble1 = 5.25;
+            bool myBool1 = true;
 
-Console.WriteLine(Convert.ToString(myInt1));    // convert int to string
-Console.WriteLine(Convert.ToDouble(myInt1));    // convert int to double
-Console.WriteLine(Convert.ToInt32(myDouble1));  // convert double to int
-Console.WriteLine(Convert.ToString(myBool1));   // convert bool to string
+            Console.WriteLine(Convert.ToString(myInt1));    // convert int to string
+            Console.WriteLine(Convert.ToDouble(myInt1));    // convert int to double
+            Console.WriteLine(Convert.ToInt32(myDouble1));  // convert double to int
+            Console.WriteLine(Convert.ToString(myBool1));   // convert bool to string
+
+
+            Console.WriteLine("Enter your age:");
+            int age = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Your age is: " + age);
         }
     }
 }
