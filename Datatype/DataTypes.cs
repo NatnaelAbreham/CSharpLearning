@@ -63,8 +63,12 @@ Implicit casting is done automatically when passing a smaller size type to a lar
             Console.WriteLine("Your age is: " + age12);
 
             Console.WriteLine("Enter your age:");
-             age = Convert.ToInt32(Console.ReadLine());
+            age = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Your age is: " + age);/*  */
+
+            int sum1 = 100 + 50;        // 150 (100 + 50)
+            int sum2 = sum1 + 250;      // 400 (150 + 250)
+            int sum3 = sum2 + sum2;     // 800 (400 + 400)
         }
     }
 }
