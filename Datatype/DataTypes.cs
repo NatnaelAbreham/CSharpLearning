@@ -69,6 +69,14 @@ Implicit casting is done automatically when passing a smaller size type to a lar
             int sum1 = 100 + 50;        // 150 (100 + 50)
             int sum2 = sum1 + 250;      // 400 (150 + 250)
             int sum3 = sum2 + sum2;     // 800 (400 + 400)
+
+            /* Assignment operators are used to assign values to variables.
+
+In the example below, we use the assignment operator (=) to assign the value 10 to a variable called x: */
+
+
+int x = 10;
+x += 5;
         }
     }
 }
