@@ -77,6 +77,10 @@ In the example below, we use the assignment operator (=) to assign the value 10 
 
 int x = 10;
 x += 5;
+
+int x = 5;
+int y = 3;
+Console.WriteLine(x > y); // returns True because 5 is greater than 3
         }
     }
 }
