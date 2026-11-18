@@ -81,6 +81,10 @@ x += 5;
 int x = 5;
 int y = 3;
 Console.WriteLine(x > y); // returns True because 5 is greater than 3
+
+/* As with comparison operators, you can also test for True or False values with logical operators.
+
+Logical operators are used to determine the logic between variables or values: */
         }
     }
 }
