@@ -84,7 +84,12 @@ Console.WriteLine(x > y); // returns True because 5 is greater than 3
 
 /* As with comparison operators, you can also test for True or False values with logical operators.
 
-Logical operators are used to determine the logic between variables or values: */
+Logical operators are used to determine the logic between variables or values: 
+Math.Max(x,y)
+The Math.Max(x,y) method can be used to find the highest value of x and y:*/
+
+Math.Max(5, 10);
+
         }
     }
 }
