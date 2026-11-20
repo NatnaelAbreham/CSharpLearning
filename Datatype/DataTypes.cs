@@ -89,6 +89,12 @@ Math.Max(x,y)
 The Math.Max(x,y) method can be used to find the highest value of x and y:*/
 
 Math.Max(5, 10);
+/* Math.Round()
+Math.Round() rounds a number to the nearest whole number:
+
+Example
+ */
+ Math.Round(9.99);
 
         }
     }
