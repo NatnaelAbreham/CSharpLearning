@@ -95,6 +95,9 @@ Math.Round() rounds a number to the nearest whole number:
 Example
  */
  Math.Round(9.99);
+ int a = 5, b = 10, c = a + b;
+
+            Console.WriteLine("The sum of {0} and {1} is {2}", a, b, c);
 
         }
     }
