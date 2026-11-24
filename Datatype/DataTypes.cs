@@ -75,29 +75,41 @@ Implicit casting is done automatically when passing a smaller size type to a lar
 In the example below, we use the assignment operator (=) to assign the value 10 to a variable called x: */
 
 
-int x = 10;
-x += 5;
+            int x = 10;
+            x += 5;
 
-int x = 5;
-int y = 3;
-Console.WriteLine(x > y); // returns True because 5 is greater than 3
+            int x = 5;
+            int y = 3;
+            Console.WriteLine(x > y); // returns True because 5 is greater than 3
 
-/* As with comparison operators, you can also test for True or False values with logical operators.
+            /* As with comparison operators, you can also test for True or False values with logical operators.
 
-Logical operators are used to determine the logic between variables or values: 
-Math.Max(x,y)
-The Math.Max(x,y) method can be used to find the highest value of x and y:*/
+            Logical operators are used to determine the logic between variables or values: 
+            Math.Max(x,y)
+            The Math.Max(x,y) method can be used to find the highest value of x and y:*/
 
-Math.Max(5, 10);
-/* Math.Round()
-Math.Round() rounds a number to the nearest whole number:
+            Math.Max(5, 10);
+            /* Math.Round()
+            Math.Round() rounds a number to the nearest whole number:
 
-Example
- */
- Math.Round(9.99);
- int a = 5, b = 10, c = a + b;
+            Example
+             */
+            Math.Round(9.99);
+            int a = 5, b = 10, c = a + b;
 
             Console.WriteLine("The sum of {0} and {1} is {2}", a, b, c);
+
+            double d = 5.55426315894253155584;
+            double d1 = 5.55426315894253155584d;
+            decimal d2 = 5.55426315894253155584m;
+            double d3 = 5.55426315894253155584f;
+            float f = 5.55426315894253155584f;
+            //Console.WriteLine(d);
+            Console.WriteLine("by default d is double data type: {0}", d);
+            Console.WriteLine("d1 is double data type: {0}", d1);
+            Console.WriteLine("d2 is decimal data type: {0}", d2);
+            Console.WriteLine("d3 is double data type: {0}", d3);
+            Console.WriteLine("f is float data type: {0}", f);
 
         }
     }
