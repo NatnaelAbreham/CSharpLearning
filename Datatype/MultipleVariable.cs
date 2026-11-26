@@ -10,5 +10,7 @@ namespace CSharpLearning
 
             Console.WriteLine("The sum of {0} and {1} is {2}", a, b, c);
         }
+        DataTypes dataTypes = new DataTypes();
+dataTypes.Display();
     }
 }
