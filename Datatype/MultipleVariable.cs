@@ -11,6 +11,12 @@ namespace CSharpLearning
             Console.WriteLine("The sum of {0} and {1} is {2}", a, b, c);
         }
         DataTypes dataTypes = new DataTypes();
-dataTypes.Display();
+        dataTypes.Display();
+
+public class Student
+        {
+            public string Name { get; set; }
+            public int Age { get; set; }
+        }
     }
 }
